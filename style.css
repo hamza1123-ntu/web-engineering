@@ -1,0 +1,89 @@
+#h1{
+    font-style: italic;
+    color: green;
+    text-align: center;
+    background-color: lightblue;
+    width: 500px;
+}
+#h6{
+    font-style: oblique;
+    color: red;
+    font-size: 18px;
+    text-decoration:underline;
+}
+#h6:hover{
+    background-color: black;
+    width: 80px;
+}
+#paragraph{
+    
+    margin: 40px;
+    font-size: 14;
+    font-style:italic
+}
+#body{
+    background-image:url("https://thumbs.dreamstime.com/b/japanese-zen-garden-meditation-stone-concentration-relaxation-sand-rock-harmony-balance-pure-simplicity-89265732.jpg");
+
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+#ul{
+    background-color: lightgreen;
+    border:1px solid;
+    width: 100px;
+}
+#li:hover{
+    background-color: yellow;
+    width: 90px;
+}
+#img:hover{
+    transform: rotate(180deg);
+}
+
+#btn{
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: darkgreen;
+}
+
+#footer{
+    position: relative;
+        height: 100px;
+        text-align: center;
+        width: 100%;
+        background-color: DarkSalmon;
+        color: white;
+        align-items: baseline;
+        bottom: 100%;
+}
+@media screen and (max-width: 480px) {
+     #img2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) and (min-width: 481px) {
+     #img2{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 721px) {
+     #img2{
+        width: 30%;
+    }
+}
+
+#img2:hover{
+    filter: grayscale(100%);
+    transform: rotate(180deg);
+    width: 23%;
+}
